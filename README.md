@@ -7,3 +7,9 @@
 - **[ReactJS 마스터 클래스](https://nomadcoders.co/react-masterclass)**
 - **[React_Study](https://rayched.github.io/React_Study/)** 👈 React 기초 이론 정리 노트
 ---
+
+### 1. Styled-Components
+- **[`styled-components`의 정의](/Theory/1.Style_Components/styled-components.md)**
+- **[`styled-components` Part 1](/Theory/1.Style_Components/Styled-Components_Part1.md)**
+
+---
