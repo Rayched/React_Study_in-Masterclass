@@ -71,7 +71,33 @@ import styled from "styled-components";
 
 const Parents = styled.div`
 	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 300px; height: 300px;
 `;
 
-const Inputs = styled.input.
+const Inputs = styled.input.attrs({ 
+	type: "text", placeholder: "검색어를 입력해주세요."
+})`
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 200px;
+	height: 20px;
+`;
+
+function App(){
+	return(
+		<Parents>
+			<Inputs />
+			<Inputs />
+			<Inputs />
+			<Inputs />
+			<Inputs />
+		</Parents>
+	);
+}
 ```
+
+- 아래 이미지를 통해서 `Inputs` Component에 속성 값이 전달된 것을 확인할 수 있다.
+
+<img src="RefImgs/attrs_output.png"/>

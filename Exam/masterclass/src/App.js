@@ -2,26 +2,30 @@ import styled from "styled-components";
 
 const Parents = styled.div`
   display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
 `;
 
-const Box = styled.div`
-  background-color: ${(props) => props.bgColor};
-  color: white;
-  border: 1px solid black;
-  width: 100px; height: 100px;
-  margin: 5px;
-  text-align: center;
-`;
-
-const Btn = styled(Box)`
-  border-radius: 30px;
+const Inputs = styled.input.attrs({
+  type: "text", placeholder: "검색어를 입력해주세요."
+})`
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+  margin: 3px;
 `;
 
 function App() {
   return (
     <Parents>
-      <Box bgColor="tomato">Box</Box>
-      <Btn bgColor="green" as="button">Btn</Btn>
+      <Inputs />
+      <Inputs />
+      <Inputs />
+      <Inputs />
+      <Inputs />
     </Parents>
   );
 }
