@@ -13,15 +13,15 @@ const Box = styled.div`
   text-align: center;
 `;
 
-const Circle = styled(Box)`
-  border-radius: 50px; //New
+const Btn = styled(Box)`
+  border-radius: 30px;
 `;
 
 function App() {
   return (
     <Parents>
-      <Box bgColor="red">Box 1</Box>
-      <Circle bgColor="blue">Box 2</Circle>
+      <Box bgColor="tomato">Box</Box>
+      <Btn bgColor="green" as="button">Btn</Btn>
     </Parents>
   );
 }
