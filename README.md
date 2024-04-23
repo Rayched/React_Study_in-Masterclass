@@ -10,6 +10,6 @@
 
 ### 1. Styled-Components
 - **[`styled-components`의 정의](/Theory/1.Style_Components/styled-components.md)**
-- **[`styled-components` Part 1](/Theory/1.Style_Components/Styled-Components_Part1.md)**
+- **[`styled-components` 맛보기](/Theory/1.Style_Components/Styled-Components_맛보기.md)**
 
 ---
