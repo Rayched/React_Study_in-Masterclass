@@ -9,7 +9,8 @@ npm i styled-components
 ```
 
 - `styled-components` CSS 자동 완성 기능은 VSCode Extension 설치해서 사용 가능
-- **"vscode-styled-components** 👈 VSCode Extension Name
+- **"vscode-styled-components"** 👈 VSCode Extension Name
+
 ---
 
 #### 예제 코드 (`styled-components` 사용 전)
