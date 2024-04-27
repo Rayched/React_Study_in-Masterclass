@@ -11,6 +11,6 @@
 ### 1. Styled-Components
 - **[`styled-components`의 정의](/Theory/1.Style_Components/styled-components.md)**
 - **[`styled-components` 맛보기](/Theory/1.Style_Components/Styled-Components_맛보기.md)**
--**[`as`, `attrs`](/Theory/1.Style_Components/'as'%20and%20'Attrs'.md)**
+- **[`as`, `attrs`](/Theory/1.Style_Components/'as'%20and%20'Attrs'.md)**
 
 ---
