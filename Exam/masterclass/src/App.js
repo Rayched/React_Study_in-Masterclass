@@ -1,32 +1,41 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
-const Parents = styled.div`
+const Wrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  border: 3px solid black;
-  width: 300px;
-  height: 300px;
 `;
 
-const Inputs = styled.input.attrs({
-  type: "text", placeholder: "검색어를 입력해주세요."
-})`
-  border: 2px solid black;
-  border-radius: 10px;
-  width: 200px;
-  height: 20px;
-  margin: 3px;
+const animation = keyframes`
+  0% {
+    transform: rotate(0deg);
+    background-color: red;
+  }
+  50% {
+    transform: rotate(180deg);
+    background-color: yellow;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: green;
+  }
+`;
+
+const Box = styled.div`
+  width: 200px; height: 200px;
+  animation: ${animation} 2s linear infinite;
+`;
+
+const Box2 = styled.div`
+  width: 100px; height: 100px;
+  animation: ${animation} 3s linear;
+  background-color: gray;
 `;
 
 function App() {
   return (
-    <Parents>
-      <Inputs />
-      <Inputs />
-      <Inputs />
-      <Inputs />
-      <Inputs />
-    </Parents>
+    <Wrapper>
+      <Box />
+      <Box2 />
+    </Wrapper>
   );
 }
 
