@@ -4,7 +4,7 @@
 - 이번에 다루는 것은 `HTML Element` 다른 `HTML Element`로 교체하는 방법에 대한 것이다.
 
 ---
-#### `as`
+### `as`
 
 ``` jsx
 import styled from "styled-components";
@@ -48,7 +48,7 @@ function App(){
 
 ---
 
-#### `attrs`
+### `attrs`
 
 ``` jsx
 const Exam = styled.input.attrs(/*attributes*/)``;
@@ -101,3 +101,16 @@ function App(){
 - 아래 이미지를 통해서 `Inputs` Component에 속성 값이 전달된 것을 확인할 수 있다.
 
 <img src="RefImgs/attrs_output.png"/>
+
+- 쉽게 이야기 하자면 `HTML` 태그의 속성을 추가한다고 보면 된다.
+- `styled-components` 정의할 때, 요소의 속성을 별도로 추가하기 위해서 <br/>
+	아래와 같이 작성을 한다.
+
+``` jsx
+const Inputs = styled.Input.attrs({
+	type: "text", placeholder: "검색어를 입력해주세요."
+})``;
+```
+
+- 속성은 객체 Property의 형식으로 작성하고, 이를 객체로 묶어서 `attrs()` 함수에 전달한다.
+---

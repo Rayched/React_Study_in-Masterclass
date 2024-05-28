@@ -147,9 +147,11 @@ function App() {
 - 이제 예제를 확인해보면 `background-color`가 각기 다르게 적용된 것을 확인할 수 있다.
 ---
 
-#### `styled('Component Name')`
+#### `styled('Component Name')` 활용해서 중복 줄이기
 
-- 이번에는 `Circle`이라는 새로운 Component를 만든 다음 <br/>
+##### 일종의 Component 상속하기
+
+- 이번에는 `Circle`이라는 새로운 Component 만든 다음 <br/>
 - `<Box>Box 2</Box>` 요소를 `<Circle>Box 2</Circle>` 대체해보자.
 
 ``` jsx
@@ -200,7 +202,7 @@ const Circle = styled(Box)`
 `;
 ```
 
-- `styled()` 함수는 객체 지향 문법의 '상속 (extends)'과 비슷하다.
+- `styled()` 함수는 객체 지향 문법의 **'상속 (extends)'** 기법과 비슷하다고 보면 된다.
 - `styled` 뒤에 HTML 태그를 붙이지 않고 대신 `()` 추가하고
 
 - `(소괄호)` 내부에 상속 받을 Component를 명시하면 <br/>

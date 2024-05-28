@@ -9,8 +9,7 @@
 ---
 
 ### 1. Styled-Components
-- **[`styled-components`의 정의](/Theory/1.Style_Components/styled-components.md)**
-- **[`styled-components` 맛보기](/Theory/1.Style_Components/Styled-Components_맛보기.md)**
-- **[`as`, `attrs`](/Theory/1.Style_Components/'as'%20and%20'Attrs'.md)**
-
+- **[`styled-components`](/Study_Notes/1.Style_Components/Styled-Components.md)**
+- **[`as`와 `attrs (속성)`](/Study_Notes/1.Style_Components/as_and_Attrs.md)**
+- **[`Animation` 효과 추가하기](/Study_Notes/1.Style_Components/Animation_Effect.md)**
 ---
