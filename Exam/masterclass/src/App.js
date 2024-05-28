@@ -27,6 +27,11 @@ const animation = keyframes`
   }
 `;
 
+const Emoticon = styled.span`
+  font-size: 40px;
+
+`;
+
 const Box = styled.div`
   width: 100px; height: 100px;
   animation: ${animation} 5s linear infinite;
@@ -34,10 +39,17 @@ const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  /*
   span {
-    font-size: 40px;
     &:hover {
       background-color: white;
+    }
+  }*/
+  ${Emoticon} {
+    //JS에서 변수를 전달하던 방식대로 Styled component 전달 가능
+    &:hover {
+      font-size: 60px;
+      background-color: white;  
     }
   }
 `;
@@ -46,10 +58,13 @@ function App() {
   return (
     <Wrapper>
       <Box>
-        <span>😎</span>
+        <Emoticon as="div">😎</Emoticon>
       </Box>
     </Wrapper>
   );
+  /**
+   * 기존 span 요소를 Emoticon이라는 styled-component로 대체하였음.
+   */
 }
 
 export default App;
