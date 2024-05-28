@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Style_Components/as_and_Attrs.md",
+                "file": "1.Style_Components/theme_darkmode.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Style_Components/as_and_Attrs.md",
+                "file": "1.Style_Components/theme_darkmode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Style_Components/as_and_Attrs.md",
+                "file": "1.Style_Components/theme_darkmode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Style_Components/as_and_Attrs.md"
+                "file": "1.Style_Components/theme_darkmode.md"
               }
             }
           }
@@ -147,8 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "56419ec981f54196",
+  "active": "0132c586889d42c1",
   "lastOpenFiles": [
+    "1.Style_Components/RefImgs/dark_theme_sample.png",
+    "1.Style_Components/as_and_Attrs.md",
+    "().md",
+    "1.Style_Components/theme_darkmode.md",
     "1.Style_Components/Styled-Components.md",
     "1.Style_Components/styled-components.md",
     "1.Style_Components/Animation_Effect.md"
