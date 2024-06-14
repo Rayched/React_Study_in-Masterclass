@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Style_Components/theme_darkmode.md",
+                "file": "2.TypeScript_in_React/Typing_the_props.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Style_Components/theme_darkmode.md",
+                "file": "2.TypeScript_in_React/Typing_the_props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Style_Components/theme_darkmode.md",
+                "file": "2.TypeScript_in_React/Typing_the_props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Style_Components/theme_darkmode.md"
+                "file": "2.TypeScript_in_React/Typing_the_props.md"
               }
             }
           }
@@ -149,11 +149,13 @@
   },
   "active": "0132c586889d42c1",
   "lastOpenFiles": [
+    "1.Style_Components/Styled-Components.md",
+    "2.TypeScript_in_React/Typing_the_props.md",
+    "2.TypeScript_in_React",
+    "1.Style_Components/theme_darkmode.md",
     "1.Style_Components/RefImgs/dark_theme_sample.png",
     "1.Style_Components/as_and_Attrs.md",
     "().md",
-    "1.Style_Components/theme_darkmode.md",
-    "1.Style_Components/Styled-Components.md",
     "1.Style_Components/styled-components.md",
     "1.Style_Components/Animation_Effect.md"
   ]
