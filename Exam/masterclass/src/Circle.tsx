@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styled from "styled-components";
 
 interface CircleProps {
@@ -38,14 +39,6 @@ const Container = styled.div<CircleProps>`
 `;
 
 function Circle({bgColor, borderColor, text="기본값"} : CircleProps){
-    //수정 전
-    /*
-    return (
-        <Container bgColor={bgColor} borderColor={borderColor}/>
-    );
-    */
-
-    //수정 후
     return (
         <Container bgColor={bgColor} borderColor={borderColor ?? bgColor}>
             {text}
