@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ef62a38e1abb4ba6",
+        "id": "4aca402336b3337e",
         "type": "tabs",
         "children": [
           {
-            "id": "d5ad9603b502530d",
+            "id": "07d0825aa631f628",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.TypeScript_in_React/TypeScript와_React_State.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ccc33e55160fed8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.TypeScript_in_React/form.md",
+                "file": "2.TypeScript_in_React/TypeScript&styled-components.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.TypeScript_in_React/form.md",
+                "file": "2.TypeScript_in_React/TypeScript&styled-components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.TypeScript_in_React/form.md",
+                "file": "2.TypeScript_in_React/TypeScript&styled-components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.TypeScript_in_React/form.md"
+                "file": "2.TypeScript_in_React/TypeScript&styled-components.md"
               }
             }
           }
@@ -160,12 +147,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9ccc33e55160fed8",
+  "active": "07d0825aa631f628",
   "lastOpenFiles": [
-    "2.TypeScript_in_React/refImgs/form_inReact.png",
+    "2.TypeScript_in_React/refImgs/Theme_verTS.png",
+    "2.TypeScript_in_React/TypeScript&styled-components.md",
     "2.TypeScript_in_React/TypeScript와_React_State.md",
-    "2.TypeScript_in_React/form.md",
     "2.TypeScript_in_React/Typing_the_props.md",
+    "1.Style_Components/as_and_Attrs.md",
+    "1.Style_Components/Animation_Effect.md",
+    "2.TypeScript_in_React/form.md",
+    "1.Style_Components/Styled-Components.md",
+    "2.TypeScript_in_React/refImgs/form_inReact.png",
     "2.TypeScript_in_React/props_optional.md",
     "2.TypeScript_in_React/refImgs/Circle_defaultValue.png",
     "2.TypeScript_in_React/refImgs/Circle_optional.png",
@@ -174,13 +166,10 @@
     "3.React_Router",
     "2.TypeScript_in_React/refImgs/Circle_Component.png",
     "2.TypeScript_in_React/refImgs",
-    "1.Style_Components/Styled-Components.md",
     "2.TypeScript_in_React",
     "1.Style_Components/theme_darkmode.md",
     "1.Style_Components/RefImgs/dark_theme_sample.png",
-    "1.Style_Components/as_and_Attrs.md",
     "().md",
-    "1.Style_Components/styled-components.md",
-    "1.Style_Components/Animation_Effect.md"
+    "1.Style_Components/styled-components.md"
   ]
 }
