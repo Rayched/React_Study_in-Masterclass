@@ -108,3 +108,30 @@ export const DarkTheme: DefaultTheme = {
 
 ---
 
+### declaration File이 없는 라이브러리를 사용하는 경우
+
+- Project를 진행하다 보면 `declaration File`를 가지고 있지 않은 <br/>
+	라이브러리를 사용하게 되는 경우가 있을 수도 있다.
+
+- 그런 경우에는 Github로 들어가서 `declaration File`을 찾는 것도 하나의 방법이지만
+- Github에 Backup된 파일의 개수가 매우 많고, 원하는 파일을 찾는 것도 쉽지 않기에
+- 아래와 같이 명령어를 입력해서, 현재 사용 중인 라이브러리나 <br/>
+	패키지의 `declaration File`을 받아오는 것이 권장된다고 한다.
+
+``` shell
+npm i --save-dev @types/Library_name
+```
+
+- `JavaScript`로 개발할 때는 상관 없었지만, `TypeScript` 설치한 시점부터 <br/>
+	`Type`이 명시되지 않은 라이브러리나 패키지를 다운로드 받으면 <br/>
+	`TypeScript`에서 Error를 발생시킨다.
+
+- 그리고 이를 방지하기 위해서 위의 명령어를 입력해서 <br/>
+	라이브러리의 `Type` 정의해둔 `Declaration File (선언 파일)` 받아와야 한다.
+
+- `Project` 개발을 `TypeScript`로 시작한 시점에서 알아둬서 나쁠 것은 없으니 <br/>
+	일단 여기에 기록해두기로 했다.
+
+- 참고로 이미 만들어진 `d.ts` 파일이 존재한다면 정상적으로 설치가 되겠지만 <br/>
+	만약 존재하지 않는다면 설치가 되지 않을 것이다. <br/>
+	(없다는 것은 에러 메시지로 파악 가능)

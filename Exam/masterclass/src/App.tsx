@@ -22,12 +22,24 @@ const SearchBtn = styled.button`
   border: 3px solid black;
 `;
 
+interface Dummyprops {
+  text: string,
+  otherThing?: boolean //option 속성
+};
+
+function Dummy({text, otherThing=false}: Dummyprops){
+  //props 만들 때 임의의 값을 전달하면
+  //전달한 값이 해당 prop의 기본 값으로 초기화된다.
+  return <h4>text에 전달된 값: {text}</h4>
+}
+
 function App() {
   return (
     <Container>
       <h4>검색어를 입력해주세요. 👇</h4>
       <SearchBar />
       <SearchBtn>검색</SearchBtn>
+      <Dummy text="더미 컴포넌트"/>
     </Container>
   );
 }
