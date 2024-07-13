@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "running_head.md",
+                "file": "3.React_Router_ver6/running_head.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8002c046bdff9240",
@@ -160,10 +161,10 @@
   },
   "active": "07d0825aa631f628",
   "lastOpenFiles": [
-    "3.React_Router_ver6/react-router-dom_Components.md",
+    "3.React_Router_ver6/running_head.md",
     "3.React_Router_ver6/createBrowserRouter.md",
+    "3.React_Router_ver6/react-router-dom_Components.md",
     "2.TypeScript_in_React/TypeScript&styled-components.md",
-    "running_head.md",
     "2.TypeScript_in_React/refImgs/Theme_verTS.png",
     "2.TypeScript_in_React/TypeScript와_React_State.md",
     "2.TypeScript_in_React/Typing_the_props.md",
