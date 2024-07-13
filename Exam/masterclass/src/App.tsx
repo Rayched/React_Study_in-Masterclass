@@ -1,49 +1,47 @@
+import { validateHeaderValue } from "http";
+import { useState } from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.div`
-  display: flex;
-`;
-
-const Title = styled.h2`
-  font-size: 30px;
-  //color: tomato;
+const Container = styled.div`
   color: ${(props) => props.theme.textColor};
+  background-color: ${(props) => props.theme.bgColor};
+  font-weight: bold;
+  height: 100px;
 `;
 
-const Box = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  //background-color: white;
-  background-color: ${(props) => props.theme.backgroundColor};
-  ${Title}{
-    &:hover{
-      border: 3px solid red;
-      border: ${(props) => props.theme.borders};
-      border-radius: 10px;
-      padding: 5px;
-      font-size: 45px;
-    }
-  }
+const SearchBar = styled.input.attrs(
+  {type: "text", placeholder:"검색어를 입력해주세요."}
+)`
+  color: ${(props) => props.theme.bgColor};
+  background-color: ${(props) => props.theme.bgColor};
+  border: 3px solid ${(props) => props.theme.textColor};
+  margin: 0 5px;
 `;
+
+const SearchBtn = styled.button`
+  border: 3px solid black;
+`;
+
+interface Dummyprops {
+  text: string,
+  otherThing?: boolean //option 속성
+};
+
+function Dummy({text, otherThing=false}: Dummyprops){
+  //props 만들 때 임의의 값을 전달하면
+  //전달한 값이 해당 prop의 기본 값으로 초기화된다.
+  return <h4>text에 전달된 값: {text}</h4>
+}
 
 function App() {
   return (
-    <div>
-      <h2>Dark Mode 적용 (전환 불가)</h2>
-      <Wrapper>
-      <Box>
-        <Title>Hello World</Title>
-      </Box>
-    </Wrapper>
-    </div>
+    <Container>
+      <h4>검색어를 입력해주세요. 👇</h4>
+      <SearchBar />
+      <SearchBtn>검색</SearchBtn>
+      <Dummy text="더미 컴포넌트"/>
+    </Container>
   );
-  /**
-   * 기존 span 요소를 Emoticon이라는 styled-component로 대체하였음.
-   */
 }
 
 export default App;
