@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import RouterExam from "./exams/RouterExam/RouterExam";
 
 const Wrapper = styled.div`
     width: 100vw;
@@ -11,7 +12,7 @@ const Wrapper = styled.div`
 export default function App(){
     return (
         <Wrapper>
-            <h4>Hello World</h4>
+            <RouterExam />
         </Wrapper>
     );
 };
